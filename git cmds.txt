@@ -7,3 +7,11 @@ git remote add origin https://github.com/h1ghV01tage/h1ghv01tage.github.io.git
 git push -u origin main
 
 
+
+
+git status
+git add .
+git status
+git commit -m 'commit message'
+git status
+git push origin main
