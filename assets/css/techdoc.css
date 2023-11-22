@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f8f9fa; /* Light gray background color */
+    
+  }
+
+  /* Sidebar */
+  .sidebar {
+    width: 250px;
+    background-color: #343a40;
+    padding: 20px;
+    color: #fff;
+  }
+
+  .sidebar a {
+    display: block;
+    color: #fff;
+    margin-bottom: 15px;
+    text-decoration: none;
+  }
+
+  /* Page Content */
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  /* Custom styles for headings and links */
+  h2 {
+   
+  }
+
+  .sidecontainer{
+      margin: 10px;
+      padding: 10px;
+
+      margin: 15px;
+  font-size: 20px; /* Adjust the font size as needed */
+  background-image: linear-gradient(45deg, #007bff, #00ffcc); /* Gradient background color */
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 1px; /* Adjust letter spacing as needed */
+  }
+
+  .probe{
+
+  margin: 15px;
+  font-size: 20px; /* Adjust the font size as needed */
+  background-image: linear-gradient(45deg, #007bff, #00ffcc); /* Gradient background color */
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 1px; /* Adjust letter spacing as needed */
+
+  }
+
+  p {
+    color: #495057; /* Dark gray color */
+  }
+
+  ul, ol {
+    color: #495057; /* Dark gray color */
+  }
+
+  a {
+    color: #007bff; /* Blue color for links */
+  }
+
+  a:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+
+  dl {
+    color: #495057; /* Dark gray color */
+  }
+
+  dt {
+    font-weight: bold;
+  }
+
+  code {
+    background-color: #495057; /* Light gray background for code */
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: "Courier New", monospace;
+    color: white; /* Dark gray color for code text */
+  }
+
+  /* Add your custom styles here */
+  .faq-section dd {
+    margin-bottom: 20px;
+  }
+
+  footer {
+    background-color: #343a40; /* Dark background color for the footer */
+    color: #fff; /* Light text color for the footer */
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer a {
+    color: #fff; /* Light text color for links in the footer */
+  }
