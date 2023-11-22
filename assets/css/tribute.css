@@ -1,0 +1,31 @@
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.text-justify {
+    text-align: justify;
+    padding: 15px;
+    background-color: #fff; /* Set your preferred background color */
+}
+
+.jumbotron {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+}
+
+.social-icon {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.social-icon:hover {
+    color: #ffc107; /* Change color on hover if desired */
+}

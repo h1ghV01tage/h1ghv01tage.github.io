@@ -1,0 +1,14 @@
+  /* Add your custom styles here */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  .jumbotron {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 80px 20px;
+    margin-bottom: 0;
+  }
+  .product-section {
+    padding: 60px 0;
+  }
