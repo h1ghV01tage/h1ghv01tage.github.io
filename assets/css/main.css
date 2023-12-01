@@ -5,6 +5,95 @@
 	custom css
 */
 
+/*
+border enforcing
+*/
+
+#top{
+
+	
+	margin: 10px;
+	
+}
+
+#work{
+
+
+	margin: 10px;
+
+}
+
+#certificates{
+
+
+	margin: 30px;
+	
+}
+
+#portfolio{
+
+	
+	margin: 10px;
+
+}
+
+#contact{
+
+	
+	margin: 10px;
+
+}
+
+/*
+End border enforcement
+*/
+
+
+
+
+
+/*
+Cert Card styling
+*/
+
+.card-deck .card {
+	border: none;
+	border-radius: 15px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s;
+  }
+
+  .card-deck .card:hover {
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-deck .card .card-body {
+	padding: 20px;
+  }
+
+  .card-deck .card .card-body .card-title {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+  }
+
+
+  .btn-primary {
+	background-color: #007bff;
+	border-color: #007bff;
+  }
+
+  .btn-primary:hover {
+	background-color: #0056b3;
+	border-color: #0056b3;
+  }
+
+/*
+End Cert Card styling
+*/
+
+
+
 .header-container{
 
 	padding: 30px;
@@ -63,16 +152,6 @@
 	text-shadow: 2px 2px 4px #000000;
 }
 
-.custom-article{
-	
-	background-color:   #333333;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
-	border: 30px solid   #333333;
-	
-}
 
 #black-hole{
 	border: 30px solid  #333333;
@@ -304,7 +383,7 @@ input, select, textarea {
 			width: 900px;
 		}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1669px) {
 
 			.container {
 				width: 1200px;
@@ -313,6 +392,10 @@ input, select, textarea {
 				.container.medium {
 					width: 900px;
 				}
+			
+				
+
+			
 
 		}
 
@@ -325,6 +408,42 @@ input, select, textarea {
 				.container.medium {
 					width: 720px;
 				}
+			
+				
+				#top{
+
+					border: 1px outset BLACK;
+					margin: 1px;
+				}
+				
+				#work{
+				
+					border: 1px inset black;
+					margin: 1px;
+				
+				}
+
+				#certificates{
+
+					border: 1px outset black;
+					margin: 1px;
+				
+				}
+
+				#portfolio{
+
+					border: 1px inset white;
+					margin: 1px;
+				
+				}
+
+				#contact{
+
+					border: 1px outset white;
+					margin: 1px;
+				
+				}
+
 
 		}
 
@@ -364,6 +483,10 @@ input, select, textarea {
 					border: 3px solid #333333;
 					
 				  }
+				
+
+				
+
 
 		}
 
