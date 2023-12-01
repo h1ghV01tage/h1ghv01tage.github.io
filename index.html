@@ -12,6 +12,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 	</head>
 	<body class="is-preload">
@@ -19,8 +20,9 @@
 		<!-- Nav -->
 			<nav id="nav">
 				<ul class="container">
-					<li><a href="#top">Top</a></li>
-					<li><a href="#work">Work</a></li>
+					<li><a href="#top">Profile</a></li>
+					<li><a href="#work">Scope</a></li>
+					<li><a href="#certificates">Certificates</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
@@ -28,6 +30,7 @@
 
 		<!-- Home -->
 			<article id="top" class="wrapper style1">
+				<!--profile header-->
 				<div class="container">
 					<div class="row">
 						<div class="col-4 col-5-large col-12-medium">
@@ -38,18 +41,46 @@
 								<div class="header-container">
 									<h1>Hello Universe... I'm <strong>Grishav Pokharel</strong>.</h1>
 								</div>
-								
 							</header>
-							
 							<p> seeking <strong>challenging</strong> and <strong>rewarding</strong> job opportunity to apply my knowledge and skills in the diverse areas of information technology</p>
 							<a href="#work" class="button large scrolly">My areas of expertise</a>						
 						</div>
 					</div>
 				</div>
+				<!--End profille header-->
+				<!--certifications-->
+				<div class="container mt-5">
+					<h2 style="color:#555 ;">Certifications</h2>
+					<br>
+					<div class="card-deck">
+					<!-- Certification Card 1 -->
+					<div class="card">
+						<div class="card-body">
+						<h5 class="card-title"><Strong>C|CT</Strong></h5>
+						<p class="card-text"><Strong>C</Strong>ertified <Strong>C</Strong>ybersecurity <Strong>T</Strong>echnician</p>
+						<p class="card-text"><Strong style="color:red;">EC-Council</Strong></p>
+						<a target ="_blank" href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=L6LvYsF1x+GS2B0dp9DYljSrSHyzznmBMh3QL0bs92s=" class="btn btn-primary">Verify</a>
+						</div>
+					</div>
+				
+					<!-- Certification Card 2 -->
+					<div class="card">
+						<div class="card-body">
+						<h5 class="card-title"><Strong>CC</Strong></h5>
+						<p class="card-text"><Strong>C</Strong>ertified in <Strong>C</Strong>ybersecurity</p>
+						<p class="card-text" style="color: green;"><Strong>ISC</Strong>2</p>
+						<a target="_blank" href="https://www.credly.com/badges/597f7840-714e-449a-b137-0fc9e84eddd8/linked_in_profile" class="btn btn-primary">Verify</a>
+						</div>
+					</div>
+					<!-- Add more certification cards as needed -->
+				
+					</div>
+				</div>
+			<!--end certifications-->
 			</article>
-			<!--Certification holder-->
+
 			
-			<!--End certification holder-->
+			
 		<!-- Work -->
 			<article id="work" class="wrapper style2">
 				<div class="container">
@@ -180,11 +211,41 @@
 				</div>
 			</article>
 		<!----Carousel -->
-		<article class="custom-article">
+		<article class="custom-article" id="certificates">
 			
 					<!--  certificate holder content goes here -->
 					<div class="showcase-container">
 						<div class="row row-cols-1 row-cols-md-2 g-4">
+
+							<!--Cert 1 CCT-->
+							<div class="col" id="black-hole">
+								<div class="card-3dB">
+								  <img src="images/cctCert.png" class="card-img-top" alt="Certificate 2">
+								  <div class="card-body">
+								  </div>
+								</div>
+							  </div>
+							<!--End Cert 1-->
+
+							<!--Cert 2 CC-->
+							<div class="col" id="black-hole">
+								<div class="card-3dB">
+								  <img src="images/cc.jpeg" class="card-img-top" alt="Certificate 2">
+								  <div class="card-body">
+								  </div>
+								</div>
+							  </div>
+							<!--End Cert 2-->
+							<!--Cert 3 Responsive Web Design-->
+							<div class="col" id="black-hole">
+								<div class="card-3dB">
+								  <img src="images/resweb.png" class="card-img-top" alt="Certificate 2">
+								  <div class="card-body">
+								  </div>
+								</div>
+							  </div>
+
+							<!--End Cert 3-->  
 						  <div class="col" id="black-hole">
 							<div class="card-3dA">
 							  <img src="images/cct.png" class="card-img-top" alt="Certificate 1">
@@ -192,14 +253,7 @@
 							  </div>
 							</div>
 						  </div>
-						  <div class="col" id="black-hole">
-							<div class="card-3dB">
-							  <img src="images/resweb.png" class="card-img-top" alt="Certificate 2">
-							  <div class="card-body">
-							  </div>
-							</div>
-						  </div>
-						  <!-- Add more certificate cards as needed -->
+						 <!--Cert 4 NDE-->
 						  <div class="col" id="black-hole">
 							<div class="card-3dA">
 							  <img src="images/nde.png" class="card-img-top" alt="Certificate 1">
@@ -207,6 +261,7 @@
 							  </div>
 							</div>
 						  </div>
+						  <!--Cert 5 EHE-->
 						  <div class="col" id="black-hole">
 							<div class="card-3dB">
 							  <img src="images/ehe.png" class="card-img-top" alt="Certificate 2">
@@ -214,7 +269,9 @@
 							  </div>
 							</div>
 						  </div>
-							<!-- Add more certificate cards as needed -->
+						  <!--End EHE-->
+
+							<!-- Cert 6 DFE -->
 							<div class="col" id="black-hole">
 								<div class="card-3dA">
 								  <img src="images/dfe.png" class="card-img-top" alt="Certificate 1">
@@ -222,6 +279,7 @@
 								  </div>
 								</div>
 							  </div>
+							  <!--Cert 7 ANONYM-->
 							  <div class="col" id="black-hole">
 								<div class="card-3dB">
 								  <img src="images/anynomity.png" class="card-img-top" alt="Certificate 2">
@@ -229,7 +287,37 @@
 								  </div>
 								</div>
 							  </div>
-							   <!-- Add more certificate cards as needed -->
+							  <!--End ANONYM-->
+
+							  <!--Cert 8 Cisco-->
+							  <div class="col" id="black-hole">
+								<div class="card-3dB">
+								  <img src="images/cisco.png" class="card-img-top" alt="Certificate 2">
+								  <div class="card-body">
+								  </div>
+								</div>
+							  </div>
+							  <!--End cisco-->
+							  <!--Red hat 1-->
+							  <div class="col" id="black-hole">
+								<div class="card-3dB">
+								  <img src="images/openshift.jpg" class="card-img-top" alt="Certificate 2">
+								  <div class="card-body">
+								  </div>
+								</div>
+							  </div>
+							  <!--End red hat 1-->
+							  <!--Red hat 2-->
+							  <div class="col" id="black-hole">
+								<div class="card-3dB">
+								  <img src="images/ansible.jpg" class="card-img-top" alt="Certificate 2">
+								  <div class="card-body">
+								  </div>
+								</div>
+							  </div>
+							  <!--End red hat 2-->
+
+
 						</div>
 					  </div>
 				 
@@ -294,7 +382,7 @@
 							<div class="accordion-item">
 							  <h2 class="accordion-header" id="headingTwo">
 								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									<h3 class="btn-text-color">Javascript algorithgms and data structures</h3>
+									<h3 class="btn-text-color">Javascript algorithms and data structures</h3>
 								</button>
 							  </h2>
 							  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -310,28 +398,28 @@
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
 											<article class="box style2">
-												<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+												<a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
 												<h3><a href="#">Roman Numeral Converter</a></h3>
 												<p>Arabic numerals to Roman</p>
 											</article>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
 											<article class="box style2">
-												<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+												<a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
 												<h3><a href="#">Caesar's Cipher</a></h3>
 												<p>Decoding ROT13 cipher</p>
 											</article>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
 											<article class="box style2">
-												<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+												<a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
 												<h3><a href="#">Phone Num Validator</a></h3>
 												<p>A valid U.S phone number checker</p>
 											</article>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
 											<article class="box style2">
-												<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+												<a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
 												<h3><a href="#">Cash Register</a></h3>
 												<p>Price > Payment > CashInDrawer</p>
 											</article>
@@ -357,35 +445,35 @@
 									<div class="row">
 										<div class="col-4 col-6-medium col-12-small">
 											<article class="box style2">
-												<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+												<a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
 												<h3><a href="#">Random Quote Machine</a></h3>
 												<p>“Believe, then achieve greatness.” -bing@copilot.microsoft.com</p>
 											</article>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
 											<article class="box style2">
-												<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+												<a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
 												<h3><a href="#">Markdown Previewer</a></h3>
 												<p>Who doesn't like real time action?</p>
 											</article>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
 											<article class="box style2">
-												<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+												<a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
 												<h3><a href="#">Drum Machine</a></h3>
 												<p>Kick-n-Hat</p>
 											</article>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
 											<article class="box style2">
-												<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+												<a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
 												<h3><a href="#">Javascript Calculator</a></h3>
 												<p>Calculators always count on you !</p>
 											</article>
 										</div>
 										<div class="col-4 col-6-medium col-12-small">
 											<article class="box style2">
-												<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+												<a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
 												<h3><a href="#">25 +5 Clock</a></h3>
 												<p> 25 minutes sprint, 5 minutes… spent!</p>
 											</article>
@@ -410,35 +498,35 @@
 										  <div class="row">
 											  <div class="col-4 col-6-medium col-12-small">
 												  <article class="box style2">
-													  <a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+													  <a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
 													  <h3><a href="#"></a>Bar Chart</h3>
 													  <p>Bar charts fear histograms!</p>
 												  </article>
 											  </div>
 											  <div class="col-4 col-6-medium col-12-small">
 												  <article class="box style2">
-													  <a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+													  <a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
 													  <h3><a href="#">Scatterplot Graph</a></h3>
 													  <p>Points with purpose!</p>
 												  </article>
 											  </div>
 											  <div class="col-4 col-6-medium col-12-small">
 												  <article class="box style2">
-													  <a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+													  <a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
 													  <h3><a href="#">Heat Map</a></h3>
 													  <p>Warm data, cool insights!</p>
 												  </article>
 											  </div>
 											  <div class="col-4 col-6-medium col-12-small">
 												  <article class="box style2">
-													  <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+													  <a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
 													  <h3><a href="#">Choropleth Map</a></h3>
 													  <p>Shading tells tales!</p>
 												  </article>
 											  </div>
 											  <div class="col-4 col-6-medium col-12-small">
 												  <article class="box style2">
-													  <a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+													  <a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
 													  <h3><a href="#">Treemap Diagram</a></h3>
 													  <p>Nesting never ends!</p>
 												  </article>
@@ -450,8 +538,61 @@
 									</div>
 								  </div>
 								<!--End Data science project accordian-->
-	
-							
+								 <!--Begin Info Sec project accordian-->
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="headingFive">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+											<h3 class="btn-text-color">Information Security</h3>
+										</button>
+										</h2>
+										<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+										<div class="accordion-body">
+														<!--display 3 begins here-->
+											<div class="row">
+												<div class="col-4 col-6-medium col-12-small">
+													<article class="box style2">
+														<a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
+														<h3><a href="#">CyberWatch</a></h3>
+														<p>IDS</p>
+													</article>
+												</div>
+												<div class="col-4 col-6-medium col-12-small">
+													<article class="box style2">
+														<a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
+														<h3><a href="#">Galactic Probe</a></h3>
+														<p>Vulnerability Scanner</p>
+													</article>
+												</div>
+												<div class="col-4 col-6-medium col-12-small">
+													<article class="box style2">
+														<a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
+														<h3><a href="#">Cipher Wrap</a></h3>
+														<p>Secure File Encryption</p>
+													</article>
+												</div>
+												<div class="col-4 col-6-medium col-12-small">
+													<article class="box style2">
+														<a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
+														<h3><a href="#">Quantum Trace</a></h3>
+														<p>Visualize Network traffic</p>
+													</article>
+												</div>
+												<div class="col-4 col-6-medium col-12-small">
+													<article class="box style2">
+														<a href="#" class="image featured"><img src="images/construction.jpeg" alt="" /></a>
+														<h3><a href="#">AppShield360</a></h3>
+														<p>Web Application Firewall</p>
+													</article>
+												</div>
+											</div>
+
+											<!--display 3 ends here-->
+										</div>
+										</div>
+									</div>
+									<!--End Info Sec project accordian-->
+ 
+								
 
 						  </div>
 					</article>
@@ -533,6 +674,8 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	</body>
 </html>
